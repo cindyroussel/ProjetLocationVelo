@@ -1,0 +1,234 @@
+#navbarSupportedContent{
+    margin-left:1400px;
+}
+
+.nav-link {
+    margin-right: 50px;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+#logo, #logo1{
+    width: 150px;
+}
+
+#titre{
+    margin-left: -835px;
+    width: 440px;
+}
+
+#menu {
+    margin-left: 260px;
+}
+
+ .card1 card2{
+     padding:0px;
+ }
+#menu2{
+    background-color:#234B65;
+}
+
+#facebook{
+    width: 8%;
+    margin-left: 250%;
+    margin-top: -25%;
+
+}
+#footer{
+    background-color: #234B65;
+
+}
+
+h3{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    color:white;
+
+}
+
+.btn{
+    background-color:#234B65;
+    color:white;
+}
+
+p{
+    text-align:center;
+
+}
+
+.slid1{
+    text-shadow: black 2px 2px;
+    font-size: 2.2em;
+}
+
+h5{
+    font-size: 4.5rem;
+    text-shadow: black 3px 3px;
+}
+
+#forgetmail{
+    font-size: 1em;
+}
+/*media queries ecran de 790px max*/
+
+@media only screen and (max-device-width: 790px) {
+    #menu2 {
+        display: none;
+
+    }
+
+    #titre{
+        margin-left: 125px;
+    }
+
+    #slider {
+        margin-left: 0px;
+        margin-bottom: 30px;
+
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .fond {
+        background-color: #234B65;
+    }
+
+    .text-white {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .card2, .card1 {
+        margin-left: 90px;
+    }
+
+    #footer {
+        height: 600px;
+        margin-left:0px!important;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    #ml {
+        margin-left: 320px;
+    }
+
+    #cgv {
+        margin-left: 420px;
+    }
+
+    #contact {
+        margin-left: 395px;
+    }
+
+    #facebook {
+        margin-top: 160px;
+        margin-left: -215px;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        width: 400px;
+        height: 150px;
+        margin-left: 190px;
+        margin-left: 190px;
+        font-size: 50px;
+        padding-top: 25px;
+    }
+
+    p {
+        font-size: 33px;;
+    }
+
+    .nav-link {
+        color: white;
+
+    }
+
+    #cnx1 {
+        font-size: 0px;
+        margin-right: -10px;
+    }
+
+    .dropdown-item {
+        font-size: 2.3em;;
+    }
+
+    .dropdown-menu {
+        margin-left: 300px;
+        margin-top: 90px;
+    }
+
+    btn1 {
+        width: 50%;
+        heiht: 50%;
+        padding: 0px;
+        font-size: 2em;
+    }
+    h6{
+        margin-left: 211px;
+        font-size: 3em;
+    }
+
+    .supmargin {
+        margin-right: 0 !important;
+    }
+
+.col-form-label{
+    font-size: 2em;
+}
+.modal-footer{
+    font-size: 2em;
+}
+    #forgetmail{
+        font-size: 1.5em;
+    }
+}
+
+/*media queries ecran de plus de 790px*/
+@media only screen and (min-device-width: 790px) {
+    #menu1 {
+        display: none;
+
+    }
+
+    #slider {
+        width: 850px;
+        margin-left: 28%;
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+
+    .card1{
+        margin-left: 270px;
+        margin-right: 160px;
+    }
+
+    .card-title{
+        text-align: center;
+        font-size: 45px;
+    }
+    .btn{
+        width: 250px;
+        height: 70px;
+        margin-left: 150px;
+        padding-top: 15px;
+        font-size: 1.5em;
+    }
+
+#navbarSupportedContent {
+    margin-left: 70%;
+}
+
+}
+
