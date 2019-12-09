@@ -1,29 +1,41 @@
 
 
+.container-fluid{
+    background-color:#234B65;
+}
+
+#logo{
+    width: 30%;
+}
+
+#titre{
+    width:100%;
+    margin-left: -130px;
+}
+
+li{
+    margin-right: 20px;
+
+}
+
 a{
-    color:black;
+    color:white;
     font-size:1.5em;
 
 }
 
 
-
-#logo{
-    width: 150px;
-}
-
-
-
-
-
 #footer{
     background-color: #234B65;
+    padding-top: 30px;
+    min-height: 100px;
 
 }
 
 h3{
-    margin: 3% 10%;
+text-align: center;
     color:white;
+    padding-bottom: 10px;
 
 }
 
@@ -54,16 +66,35 @@ h5{
 #facebook {
     width: 50px;
     height: 50px;
-    margin-top: 50px;
+    margin-left: 45%;
+    margin-top: -5px;
 }
 .slider{
     width:80%;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
 
 }
-#choice{
-    padding:180px;
+.card1 , .card2{
+    margin-left: 5%;
 }
+.card-title{
+    text-align: center;
+    font-size: 2em;
+}
+.btn{
+    margin-left: 35%;
+    font-size: 150%;
+}
+
+.navbar-toggler{
+    margin-left: 43%;
+    background-color: black;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+/*media queries ecran de 790px max*/
 

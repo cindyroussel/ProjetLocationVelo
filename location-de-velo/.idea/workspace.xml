@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e37e09-b178-4437-97ff-f38f0ed62c90" name="Default Changelist" comment="" />
+    <list default="true" id="68e37e09-b178-4437-97ff-f38f0ed62c90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/css/accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/css/accueil.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +85,7 @@
       <workItem from="1575615713394" duration="12879000" />
       <workItem from="1575629462143" duration="196000" />
       <workItem from="1575875209381" duration="21410000" />
+      <workItem from="1575917702472" duration="9097000" />
     </task>
     <servers />
   </component>
@@ -108,5 +113,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575468448088" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575917703382">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575917703382" />
   </component>
 </project>
