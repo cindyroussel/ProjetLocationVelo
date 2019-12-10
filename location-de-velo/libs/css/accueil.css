@@ -20,7 +20,7 @@ li{
 
 a{
     color:white;
-    font-size:1.5em;
+    font-size:1.8em;
 
 }
 
@@ -77,11 +77,20 @@ h5{
 
 }
 .card1 , .card2{
-    margin-left: 5%;
+    margin-left: 10%;
 }
+
+.card-img-top{
+    width: 115%;
+}
+
 .card-title{
     text-align: center;
     font-size: 2em;
+}
+
+#choix{
+    margin:0!important
 }
 .btn{
     margin-left: 35%;
@@ -95,6 +104,7 @@ h5{
 
 .navbar-nav{
     text-align: center;
+    margin-top: 25px;
 }
 /*media queries ecran de 790px max*/
 
