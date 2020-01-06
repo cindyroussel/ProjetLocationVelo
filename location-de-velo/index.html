@@ -7,46 +7,47 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" alt="">
     <link href='libs/css/accueil.css' media='screen' rel='stylesheet' type='text/css'>
 </head>
+<body style="overflow-x: hidden;">
 
 <!--menu-->
 
 <div class="container-fluid">
     <div class="row justify-content-between">
         <div class="col-6 col-sm-4">
-        <img src="libs/img/logo-velo.png" id="logo" alt="logo"></div>
+            <img src="libs/img/logo-velo.png" id="logo" alt="logo"></div>
         <div class=" col-6 col-sm-4">
             <img src="libs/img/cooltext343376691696319.png" id="titre" alt="titre"></div>
 
-    <div class="col-12  col-sm-4">
-        <nav class="navbar navbar-expand-lg ">
+        <div class="col-12  col-sm-4">
+            <nav class="navbar navbar-expand-lg ">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><p>MENU</p></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Panier</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Connexion
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" data-toggle="modal" data-target="#cnx" data-whatever="@" >Déjà client</a>
-                            <a class="dropdown-item" data-toggle="modal" data-target="#new-user" data-whatever="@mdo" id="new">Nouveau client</a>
-                        </div>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Panier</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Connexion
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#cnx" data-whatever="@" >Déjà client</a>
+                                <a class="dropdown-item" data-toggle="modal" data-target="#new-user" data-whatever="@mdo" id="new">Nouveau client</a>
+                            </div>
+                        </li>
 
-                </ul>
+                    </ul>
 
-            </div>
-        </nav>
-    </div>
+                </div>
+            </nav>
+        </div>
     </div>
 
 </div>
@@ -99,29 +100,62 @@
 
 
 <!--photos pour choix de loc-->
-<div class="row" id="choix">
-<div class=" card1  col-4" >
-        <img src="libs/img/bicycles-3902288_1280.jpg" class="card-img-top" alt="velo-class">
-        <div class="card-body">
-            <h6 class="card-title">Vélos classiques</h6>
-            <p class="card-text">Roulez en vélo à partir de 5€/jour.</p>
-            <a href="http://localhost:63342/location-de-velo/templates/velo-classique.html?_ijt=ue11fur0oef5lqv69v9pffdk4p#" class="btn" >LOUEZ-MOI</a>
-        </div>
-    </div>
-    <div class="card2 col-4">
-        <img src="libs/img/city-bike-3371069_1920.jpg" class="card-img-top" alt="velo-elec">
-        <div class="card-body">
-            <h6 class="card-title">Vélo électriques</h6>
-            <p class="card-text">Le vélo électrique à partir de 10€/jour</p>
-            <a href="http://localhost:63342/location-de-velo/templates/velo-electrique.html?_ijt=vv3p8v9s4tn9ag558hlov5oi4o" class="btn" >LOUEZ-MOI</a>
-        </div>
-    </div>
+<div class="container">
+<div class="row align-items-center justify-content-center" id="choix">
+    
+      <div class="card text-center mx-auto" style="width: 25rem; ">
+            <img class="card-img-top" src="libs/img/bicycles-3902288_1280.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Vélos classiques</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="..location-de-velo/templates/velo-classique" class="btn btn-primary">LOUEZ-MOI</a>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto" style="width: 25rem;">
+                <img class="card-img-top" src="libs/img/bicycles-4328493__340.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Vélos électriques</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="..location-de-velo/templates/velo-electrique" class="btn btn-primary">LOUEZ-MOI</a>
+                </div>
+              </div>
+         
+</div>
 </div>
 
 
-  
- 
+<!-- Modal deja client -->
 
+<div class="modal fade" id="cnx" tabindex="-1" role="dialog" aria-labelledby="cnxtitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" >Se connecter</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-mail" class="col-form-label">Adresse mail</label>
+                        <input type="text" class="form-control" id="recipient-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-mdp" class="col-form-label">Mot de passe</label>
+                        <input type="text" class="form-control" id="recipient-mdp">
+                    </div>
+                    <a href=""><small id="forgetmail" class="form-text text-muted" data-toggle="modal" data-target="#exampleModal">Mot de passe oublié</small></a>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn1 btn-secondary" data-dismiss="modal">Fermer</button>
+                <button type="button" class="btn1 btn-primary">Se connecter</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--footer-->
 <div class="row justify-content-between" id="footer">
@@ -241,7 +275,6 @@
 
     <a  class="col-12 col-sm-2" href="https://fr-fr.facebook.com/"><img src="libs/img/facebook.png" id="facebook" alt="facebook-logo"></a>
 </div>
-
 
 <!-- Nouveau client -->
 
