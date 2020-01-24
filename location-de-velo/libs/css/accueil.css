@@ -98,8 +98,10 @@ h5{
 }
 
 .navbar-toggler{
-    margin-left: 43%;
+    margin-left: 37%;
     background-color: black;
+    width: 90px;
+    padding-right: 39px;
 }
 
 .navbar-nav{
